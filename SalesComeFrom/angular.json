@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "SalesComeFrom": {
+    "salesComeFront": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/sales-come-from",
+            "outputPath": "dist/sales-come-front",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "SalesComeFrom:build:production"
+              "browserTarget": "salesComeFront:build:production"
             },
             "development": {
-              "browserTarget": "SalesComeFrom:build:development"
+              "browserTarget": "salesComeFront:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "SalesComeFrom:build"
+            "browserTarget": "salesComeFront:build"
           }
         },
         "test": {
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "c65aecc4-fe31-46f0-9b5f-474f915a7b19"
   }
 }
